@@ -2,9 +2,9 @@
 const btnConsulta = document.querySelector("#consulta").addEventListener("click", consultarVel);
 
 function consultarVel() {
-const inputVelocidade = document.querySelector("#velocidade");
-const velocidade = Number(inputVelocidade.value);
-const resultado = document.querySelector("div.resultado");
+    const inputVelocidade = document.querySelector("#velocidade");
+    const velocidade = Number(inputVelocidade.value);
+    const resultado = document.querySelector("div.resultado");
 
     if (velocidade > 80) {
     resultado.innerHTML = `<p>Com a velocidade de ${velocidade}km/h você está sendo multado por excesso de velocidade.</p>`;

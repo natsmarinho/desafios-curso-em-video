@@ -17,6 +17,15 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.319);
 }
 
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+#foto {
+    width: 100%;
+}
+
 footer {
     color: white;
     text-align: center;

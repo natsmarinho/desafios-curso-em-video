@@ -19,10 +19,12 @@ function gerarContagem() {
         }
 
         if (numInicio < numFim) {  
+            //contador crescente
             for(let c = numInicio; c <= numFim; c += numPassos) {
             resultado.innerHTML += `${c}  \u{27A1}`
             }
         } else {
+            //contador decrescente
             for(let c = numInicio; c >= numFim; c -= numPassos) {
                 resultado.innerHTML += `${c}  \u{27A1}`
             }
